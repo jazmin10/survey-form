@@ -61,11 +61,15 @@ main {
 	padding-right: 20px;
 }
 
-/* Name Row */
+/* Name, Email, Number Input Row */
 #name, #email, #number {
 	width: 250px;
 	padding: 5px 10px; 
 	font-size: 12px;
+}
+
+#dropdown {
+	align-self: center;
 }
 
 
