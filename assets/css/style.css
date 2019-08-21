@@ -144,3 +144,31 @@ body {
 footer {
   flex-shrink: 0;
 }
+
+/* ====== MEDIA QUERIES ====== */
+@media screen and (max-width: 700px) {
+
+	/* Form Rows and Columns */
+	.form-row {
+		flex-direction: column;
+	}
+
+	.form-left-side {
+		text-align: left;
+		width: 100%;
+	}
+
+	.form-right-side {
+		width: 100%;
+	}
+
+	/* Input Elements */
+	#name, #email, #number, #comments {
+		width: 90%;
+	}
+
+	#dropdown {
+		width: fit-content; 
+		align-self: flex-start;
+	}
+}
