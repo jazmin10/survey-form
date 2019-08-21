@@ -84,9 +84,14 @@ main {
 }
 
 /* Checkbox Row */
-/*#checkbox-row li {
+#checkbox-options {
+	padding: 0px;
+}
 
-}*/
+#checkbox-options li {
+	list-style: none;
+	padding-bottom: 5px;
+}
 
 
 
