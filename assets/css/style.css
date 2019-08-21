@@ -98,4 +98,9 @@ main {
 	height: 100px;
 }
 
+/* Submit Button Row */
+#submit-button {
+	display: block;
+	margin: 0 auto;
+}
 
