@@ -68,9 +68,25 @@ main {
 	font-size: 12px;
 }
 
+/* Dropdown Row */
 #dropdown {
 	align-self: center;
 }
+
+/*Radio Buttons Row */
+#radio-options {
+	padding: 0px;
+}
+
+#radio-options li {
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+/* Checkbox Row */
+/*#checkbox-row li {
+
+}*/
 
 
 
