@@ -107,13 +107,20 @@ main {
 #submit-button {
 	display: block;
 	margin: 0 auto;
+	padding: 10px 30px;
+	background: #01b33e;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 25px;
 }
 
 /* ====== FOOTER ====== */
 footer {
 	background: #000;
 	color: #fff;
-	border-top: 10px solid green;
+	border-top: 10px solid #01b33e;
 	overflow: auto;
 }
 
