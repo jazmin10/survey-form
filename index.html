@@ -28,27 +28,27 @@
 			<form id="survey-form">
 
 				<!-- NAME INPUT -->
-				<div>
-					<label for="name" id="name-label"><span>*</span> Name:</label>
-					<input id="name" type="text" name="user-name" placeholder="Full Name" required>
+				<div class="form-row">
+					<label for="name" id="name-label" class="form-left-side"><span>*</span> Name:</label>
+					<input id="name" type="text" name="user-name" placeholder="Full Name" class="form-right-side" required>
 				</div>
 
 				<!-- EMAIL INPUT -->
-				<div>
-					<label for="email" id="email-label"><span>*</span> Email:</label>
-					<input id="email" type="email" name="user-email" placeholder="email@address.com" required>
+				<div class="form-row">
+					<label for="email" id="email-label" class="form-left-side"><span>*</span> Email:</label>
+					<input id="email" type="email" name="user-email" placeholder="email@address.com" class="form-right-side" required>
 				</div>
 
 				<!-- NUMBER INPUT -->
-				<div>
-					<label for="number" id="number-label"><span>*</span>	Year of Birth:</label>
-					<input id="number" type="number" name="number-label" placeholder="YYYY" min="1900" max="2019"required>
+				<div class="form-row">
+					<label for="number" id="number-label" class="form-left-side"><span>*</span>	Year of Birth:</label>
+					<input id="number" type="number" name="number-label" placeholder="YYYY" min="1900" max="2019" class="form-right-side" required>
 				</div>
 
 				<!-- DROPDOWN INPUT -->
-				<div>
-					<p>How excited are you for the upcoming stadium?</p>
-					<select id="dropdown" name="excitement-level">
+				<div class="form-row">
+					<p class="form-left-side">How excited are you for the upcoming stadium?</p>
+					<select id="dropdown" name="excitement-level" class="form-right-side">
 						<option value="very excited">Very excited</option>
 						<option value="somewhat excited">Somewhat excited</option>
 						<option value="neutral">Neutral</option>
@@ -58,10 +58,10 @@
 				</div>
 
 				<!-- RADIO BUTTONS INPUT -->
-				<div>
+				<div class="form-row">
 					<!-- radio buttons input -->
-					<p>Are you planning to be a season-ticket holder?</p>
-					<ul>
+					<p class="form-left-side">Are you planning to be a season-ticket holder?</p>
+					<ul class="form-right-side">
 						<li>
 							<input id="yes-holder" type="radio" name="season-ticket" value="yes">
 							<label for="yes-holder">Yes</label>
@@ -74,10 +74,10 @@
 				</div>
 
 				<!-- CHECKBOXES INPUT -->
-				<div>
-					<p>Please select the amenities most important to you:</p>
+				<div class="form-row">
+					<p class="form-left-side">Please select the amenities most important to you:</p>
 					
-					<ul>
+					<ul class="form-right-side">
 						<li>
 							<input id="parking" type="checkbox" name="amenities" value="parking">
 							<label for="parking">Parking</label>
@@ -138,12 +138,14 @@
 				</div>
 
 				<!-- TEXT AREA INPUT -->
-				<div>
+				<div class="form-row">
 					<!-- text area input -->
-					<p>Additional Comments:</p>
-					<textarea name="comments" placeholder="Enter your comments here..."></textarea>
+					<p class="form-left-side">Additional Comments:</p>
+					<textarea name="comments" placeholder="Enter your comments here..." class="form-right-side"></textarea>
 				</div>
-				<div>
+
+				<!-- SUBMIT BUTTON -->
+				<div class="form-row">
 					<input type="submit" value="Submit">
 				</div>
 			</form>
