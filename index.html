@@ -6,58 +6,154 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div id="wrapper">
+<div id="wrapper">
 
-		<!-- HEADING -->
-		<header>
-			<img src="./assets/images/austinfc-logo.png" alt="austin f.c. logo">
-			<h1 id="title">STADIUM SURVEY</h1>
-		</header>
+	<!-- HEADING -->
+	<header>
+		<img src="./assets/images/austinfc-logo.png" alt="austin f.c. logo">
+		<h1 id="title">STADIUM SURVEY</h1>
+	</header>
 
-		<!-- MAIN CONTENT -->
-		<main>
+	<!-- MAIN CONTENT -->
+	<main>
 
-			<!-- SURVEY DESCRIPTION -->
-			<section>
-				<p id="description">With a new football stadium expected to arrive to the city of Austin, we want to know what you think. Share with us your thoughts and opinions by filling out this short survey!  </p>	
-				<img src="./assets/images/stadium.png" alt="austin f.c. proposed stadium">
-			</section>
+		<!-- SURVEY DESCRIPTION -->
+		<section>
+			<p id="description">With a new football stadium expected to arrive to the City of Austin, we want to know what you think. Share with us your thoughts and opinions by filling out this short survey!  </p>	
+			<img src="./assets/images/stadium.png" alt="austin f.c.'s proposed stadium">
+		</section>
 
-			<!-- SURVEY FORM -->
-			<section>
-				<form>
-					<div>
-						<!-- name input -->
-					</div>
-					<div>
-						<!-- email input -->
-					</div>
-					<div>
-						<!-- number input -->
-					</div>
-					<div>
-						<!-- dropdown input -->
-					</div>
-					<div>
-						<!-- radio buttons input -->
-					</div>
-					<div>
-						<!-- checkboxes input -->
-					</div>
-					<div>
-						<!-- text area input -->
-					</div>
-					<div>
-						<!-- submit input -->
-					</div>
-				</form>
-			</section>
-		</main>
+		<!-- SURVEY FORM -->
+		<section>
+			<form id="survey-form">
 
-		<!-- FOOTER -->
-		<footer>
-			<!-- copyright info -->
-		</footer>
-	</div>
+				<!-- NAME INPUT -->
+				<div>
+					<label for="name" id="name-label"><span>*</span> Name:</label>
+					<input id="name" type="text" name="user-name" placeholder="Full Name" required>
+				</div>
+
+				<!-- EMAIL INPUT -->
+				<div>
+					<label for="email" id="email-label"><span>*</span> Email:</label>
+					<input id="email" type="email" name="user-email" placeholder="email@address.com" required>
+				</div>
+
+				<!-- NUMBER INPUT -->
+				<div>
+					<label for="number" id="number-label"><span>*</span>	Year of Birth:</label>
+					<input id="number" type="number" name="number-label" placeholder="YYYY" min="1900" max="2019"required>
+				</div>
+
+				<!-- DROPDOWN INPUT -->
+				<div>
+					<p>How excited are you for the upcoming stadium?</p>
+					<select id="dropdown" name="excitement-level">
+						<option value="very excited">Very excited</option>
+						<option value="somewhat excited">Somewhat excited</option>
+						<option value="neutral">Neutral</option>
+						<option value="somewhat unhappy">Somewhat unhappy</option>
+						<option value="very unhappy">Very unhappy</option>
+					</select>
+				</div>
+
+				<!-- RADIO BUTTONS INPUT -->
+				<div>
+					<!-- radio buttons input -->
+					<p>Are you planning to be a season-ticket holder?</p>
+					<ul>
+						<li>
+							<input id="yes-holder" type="radio" name="season-ticket" value="yes">
+							<label for="yes-holder">Yes</label>
+						</li>
+						<li>
+							<input id="no-holder" type="radio" name="season-ticket" value="no">
+							<label for="no-holder">No</label>
+						</li>
+					</ul>
+				</div>
+
+				<!-- CHECKBOXES INPUT -->
+				<div>
+					<p>Please select the amenities most important to you:</p>
+					
+					<ul>
+						<li>
+							<input id="parking" type="checkbox" name="amenities" value="parking">
+							<label for="parking">Parking</label>
+						</li>
+						<li>
+							<input id="suites" type="checkbox" name="amenities" value="suites">
+							<label for="suites">Suites</label>
+						</li>
+						<li>
+							<input id="vendors" type="checkbox" name="amenities" value="vendors">
+							<label for="vendors">Concession Stands/Vendors</label>
+						</li>
+						<li>
+							<input id="seats" type="checkbox" name="amenities" value="seats">
+							<label for="seats">Seats</label>
+						</li>
+						<li>
+							<input id="tailgating" type="checkbox" name="amenities" value="tailgating">
+							<label for="tailgating">Tailgating Areas</label>
+						</li>
+						<li>
+							<input id="score-board" type="checkbox" name="amenities" value="score-board">
+							<label for="score-board">Video/Score Board</label>
+						</li>
+						<li>
+							<input id="transportation" type="checkbox" name="amenities" value="transportation">
+							<label for="transportation">Transportation</label>
+						</li>
+						<li>
+							<input id="facilities" type="checkbox" name="amenities" value="facilities">
+							<label for="facilities">Multi-purpose Facilities</label>
+						</li>
+						<li>
+							<input id="design" type="checkbox" name="amenities" value="design">
+							<label for="design">Design</label>
+						</li>
+						<li>
+							<input id="restrooms" type="checkbox" name="amenities" value="restrooms">
+							<label for="restrooms">Restrooms</label>
+						</li>
+						<li>
+							<input id="sound-system" type="checkbox" name="amenities" value="sound-system">
+							<label for="sound-system">Sound System</label>
+						</li>
+						<li>
+							<input id="security" type="checkbox" name="amenities" value="security">
+							<label for="security">Security</label>
+						</li>
+						<li>
+							<input id="fan-zone" type="checkbox" name="amenities" value="fan-zone">
+							<label for="fan-zone">Fan Zone</label>
+						</li>
+						<li>
+							<input id="enery-efficient" type="checkbox" name="amenities" value="enery-efficient">
+							<label for="enery-efficient">Energy Efficient/Green Friendly</label>
+						</li>
+					</ul>
+				</div>
+
+				<!-- TEXT AREA INPUT -->
+				<div>
+					<!-- text area input -->
+					<p>Additional Comments:</p>
+					<textarea name="comments" placeholder="Enter your comments here..."></textarea>
+				</div>
+				<div>
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<!-- copyright info -->
+	</footer>
+</div>
 </body>
 </html>
