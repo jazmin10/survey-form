@@ -34,7 +34,21 @@ main {
 }
 
 #stadium-image {
-	width: 70%;
+	width: 60%;
 	margin: 20px auto 0px auto;
 	display: block;
 }
+
+/* ====== SURVEY FORM ====== */
+
+/* Container */
+#survey-container {
+	background: #d2caca;
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+
+
+
+
+
