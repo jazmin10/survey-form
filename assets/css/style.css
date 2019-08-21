@@ -1,0 +1,22 @@
+/* ====== GENERAL STYLING ====== */
+body {
+	margin: 0px;
+}
+
+/* ====== HEADING ====== */
+header {
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header img {
+	width: 150px;
+	height: auto;
+	margin: 40px;
+}
+
+#title {
+	color: #fff; 
+}
