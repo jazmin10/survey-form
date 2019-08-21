@@ -62,8 +62,8 @@ main {
 }
 
 /* Name, Email, Number Input Row */
-#name, #email, #number {
-	width: 250px;
+#name, #email, #number, #comments {
+	width: 40%;
 	padding: 5px 10px; 
 	font-size: 12px;
 }
@@ -93,7 +93,9 @@ main {
 	padding-bottom: 5px;
 }
 
-
-
+/* Comments Row */
+#comments {
+	height: 100px;
+}
 
 
