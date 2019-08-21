@@ -20,3 +20,21 @@ header img {
 #title {
 	color: #fff; 
 }
+
+/* ====== MAIN CONTENT ====== */
+main {
+	margin: 60px auto;
+	width: 80%;
+}
+
+#description {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#stadium-image {
+	width: 70%;
+	margin: 20px auto 0px auto;
+	display: block;
+}
